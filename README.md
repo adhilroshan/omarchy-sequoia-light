@@ -2,7 +2,7 @@
 
 A macOS Sequoia-inspired theme for [Omarchy](https://omarchy.org/) (light mode).
 
-![Sequoia Light](backgrounds/1-sequoia-light.webp)
+![Sequoia light desktop](screenshots/light.png)
 
 ## Install
 
