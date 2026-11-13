@@ -1,12 +1,12 @@
 # macOS Sequoia (light) — Omarchy shell surfaces.
 # Translucent white cards over the wallpaper, hairline separators,
-# teal accents. Sizes follow the typographic scale in [font].
+# system blue accent. Sizes follow the typographic scale in [font].
 
 [bar]
 background       = "#F6F6F6"
-background-alpha = 0.50
+background-alpha = 0.55
 text             = "#1D1D1F"
-active           = "#FF3B30"
+active           = "#007AFF"
 scale-with-font  = true
 size-horizontal  = 26
 size-vertical    = 28
@@ -48,7 +48,7 @@ scale = 1.0
 scale-with-font = true
 
 [font]
-base-size = 12
+base-size = 13
 
 [popups]
 background       = "#F6F6F6"
