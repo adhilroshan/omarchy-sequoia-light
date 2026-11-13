@@ -1,6 +1,10 @@
 # macOS Sequoia (light) — Omarchy shell surfaces.
 # Translucent white cards over the wallpaper, hairline separators,
 # system blue accent. Sizes follow the typographic scale in [font].
+#
+# Accessibility (Apple HIG): semantic colors, 13pt base type, reduced motion and
+# reduced transparency are handled by the shell/compositor. Glass surfaces use
+# Liquid Glass only on the floating functional layer (bar, menus, popups).
 
 [bar]
 background       = "#F6F6F6"
@@ -8,8 +12,8 @@ background-alpha = 0.55
 text             = "#1D1D1F"
 active           = "#007AFF"
 scale-with-font  = true
-size-horizontal  = 26
-size-vertical    = 28
+size-horizontal  = 24
+size-vertical    = 26
 
 [hyprland]
 active-border            = "#00000026"
@@ -44,7 +48,7 @@ pressed-fill-alpha   = 0.20
 selection-fill-alpha = 0.30
 
 [spacing]
-scale = 1.0
+scale = 0.95
 scale-with-font = true
 
 [font]
